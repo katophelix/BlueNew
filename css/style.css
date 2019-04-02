@@ -13,13 +13,19 @@ nav .brand-logo {
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
-  list-style: none;
+ 
+ 
 }
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
+ 
 }
+.btn , .btn-small, .btn-large{
+	background-color: #2c167a !important;
+}
+
 
 p {
   line-height: 2rem;
