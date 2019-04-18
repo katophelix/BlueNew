@@ -16,6 +16,13 @@ nav .brand-logo {
  
  
 }
+#dropdown1{
+  width: 200px !important;
+}
+.dropdown-content .li{
+
+  color: blue;
+}
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
