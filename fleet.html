@@ -22,6 +22,10 @@
     <!-- FareHarbor buttons stylesheet -- do not remove -->
     <link rel="stylesheet" href="https://fh-kit.com/buttons/v2/?red=cc0000&orange=ff6000&green=3AB134" type="text/css"
         media="screen" />
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <link rel="stylesheet" href="css/materialize.min.css">
 </head>
 
 <body>
@@ -124,37 +128,91 @@
 
 
 
-    <div class="container">
-        <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <video width="400" controls>
-                        <source src="https://bluewaterhhi.com//CastNets.mp4" type="video/mp4">
-                        <source src="https://bluewaterhhi.com//CastNets.mp4" type="video/ogg">
-                        Your browser does not support HTML5 video.
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <style>
-            .list-inline {
-                padding-left: 0;
-                margin-left: -5px;
-                list-style: none;
-            }
-
-            .list-inline>li {
-                display: inline-block;
-                padding-right: 15px;
-                padding-left: 5px;
-            }
-        </style>
-
-
-</div>
+    <script>
+            $(document).ready(function(){
+                $('.materialbox').materialbox();
+                
+            });
+           </script>
+       
+       
+       
+           <!-- Image Gallery -->
+       
+           <div class="container ">
+             <h1>Meet the Fleet</h1>
+       
+             <div class="row card">
+                 
+                 <div class="col s12 m6 l4">
+                     <img src="images/boomerang.jpg" class="materialbox responsive-img card">
+                     <span class="card-title">Boomerang</span>
+                   
+                    <div class="card-content">
+                      <p>Boomerang is a 32 foot STUART
+                          ANGULAR and she can hold up to 6 passengers. Her captain,     SPONGE BOB has been sailing the low country for 129 years.</p>
+                    </div>
+                 </div>
+                 <div class="col s12 m6 l4">
+                     <img src="images/MISSCAR.jpg" class="materialbox responsive-img card">
+                     <span class="card-title">Miss Carolina</span>
+                     <div class="card-content">
+                        <p>Miss Carolina is a 27 foot   SEA CAT that can hold up to 5 passengers. Miss Carolins is captained by JASMINE. Jasmine has been a sea captain her whole life. </p>
+                      </div>
+                 </div>
+                 <div class="col s12 m6 l4">
+                     <img src="images/shadow.jpg" class="materialbox responsive-img card">
+                     <span class="card-title">Shadow</span>
+                     <div class="card-content">
+                        <p>Shadow is 27 foot PACEMAKER and she can hold up to 6 passengers. 
+                            Captained by SQUIDWARD, who is not only a fabulous fisherman but also likes to sing in the shower!</p>
+                      </div>
+                 </div>
+       
+             </div>
+             <div class="row card" >
+                    <div class="col s12 m6 l4" style="margin-left: 10%">
+                     <img src="images/e.jpeg"   class="materialbox responsive-img card">
+                     <span class="card-title">Reel Justice</span>
+                     <div class="card-content">
+                        <p>Reel Justice is a 27 foot CAROLINA SKIFF 
+                            and she can hold up to 4 passengers. 
+                            Reel Justice is piloted by Batman</p>
+                      </div>
+                    </div>
+             
+                 <div class="col s12 m6 l4" style="margin-left: 15%">
+                     <img src="images/f.jpeg" class="materialbox responsive-img card">
+                     <span class="card-title">Hobo</span>
+                     <div class="card-content">
+                        <p>Hobo is a 27 foot CAROLINA SKIFF 
+                            and she can hold up to 16 passengers. 
+                            QUEEN is the fearless leader of Hobo</p>
+                      </div>
+                    </div> 
+                
+                 
+              </div>
+              <div class="row" >
+                    <div class="col-s12" style="text-align: center">
+                        <h5>Interested in Cast Net Fishing? Check out this video!</h5>
+                      
+                    </div>
+                    <div class="col-s12" style="text-align: center">
+                        <video width="400" controls>
+                            <source src="https://bluewaterhhi.com/CastNets.mp4" type="video/mp4">
+                            <source src="https://bluewaterhhi.com/CastNetsApple.mp4" type="video/MPEG-4">
+                            Your browser does not support HTML5 video.
+                          </video>
+       </div>
+       <div class="col-s12" style="text-align: center">
+       <a href="https://bluewaterhhi.com/CastNetsApple.mp4"><h4>Not playing? Click here.</h4></a> 
+       </div>
+       </div>
+         </div>
+       
+       
+           
 
 
             <footer class="page-footer #0d47a1 blue darken-4">
