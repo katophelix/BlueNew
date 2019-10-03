@@ -23,6 +23,10 @@ nav .brand-logo {
 
   color: blue;
 }
+h3{
+
+  color: blue;
+}
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
