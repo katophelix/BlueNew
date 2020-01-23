@@ -34,7 +34,14 @@
         .btn-flat
             { border: 2px solid rgb(44, 176, 236);
             padding-bottom: 45px; }
-        
+            ul li{
+
+              text-align: left;
+            }
+            .btn-flat {
+      border: 2px solid rgb(44, 176, 236);
+      margin-bottom: 5px;
+    }
         </style>
 </head>
 
@@ -45,36 +52,41 @@
           <div data-includeHTML="head.html"></div>
       </header>  -->
 
-    <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://www.fareharbor.com/embeds/book/bluewaterhhi/?full-items=yes">Book a Charter - Hilton Head
-                Island!</a></li>
-        <li><a href="bring.html">What to Bring</a></li>
-        <li><a href="sell.html">What We Sell</a></li>
 
-        <li><a href="policies.html">Charter Policies</a></li>
-        <li><a href="fleet.html">Meet the Fleet</a></li>
-        <li><a href="FishFAQ.html">Fish FAQ</a></li>
-        <li><a href="fish.html">Photos</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="https://www.saltydog.com/h2o/">Weather</a></li>
-        <li><a href="https://www.saltydog.com/">Salty Dog Home</a></li>
+      <nav class="nav-wrapper white">
+        <div class="container">
+  
+     
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="font-size: 5em;color:#0d47a1">menu</i></a>
+        <a href="index.html" class="brand-logo right"> <img src="images/BWBT.png"
+          style="width:70%;padding-top:4px; margin-right: 30%;" alt=""></a>
+        <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <a href="index.html" class="brand-logo right"> <img src="images/BWBT.png" style="width:70%"
+            alt="Logo"></a>
+        </ul> -->
+    
+      <div class="nav-content" >
+        <ul class="tabs tabs-transparent">
+      
+        </ul>
+      </div>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo" >
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://www.fareharbor.com/embeds/book/bluewaterhhi/?full-items=yes">Book a Charter - Hilton Head Island</a></li>
+      <li><a href="bring.html">What to Bring</a></li>
+      <li><a href="sell.html">What We Sell</a></li>
+    
+      <li><a href="policies.html">Charter Policies</a></li>
+      <li><a href="fleet.html">Meet the Fleet</a></li>
+      <li><a href="FishFAQ.html">Fish FAQ</a></li>
+      <li><a href="fish.html">Photos</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="https://www.saltydog.com/h2o/">Weather</a></li>
+      <li><a href="https://www.saltydog.com/">Salty Dog Home</a></li>
     </ul>
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper white">
-                <a href="index.html" class="brand-logo right"> <img src="images/BWBT.png"
-                        style="width:20%;margin-left: 73%;padding-top:4px" alt=""></a>
-                <ul class="left ">
-
-                    <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons left"
-                                style="font-size: 5em;color:#0d47a1">menu</i></a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
 
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
@@ -105,68 +117,71 @@
         </div>
     </div>
     <div class="row center">
-        <div class="col s3 left ">
-          <a href="ocean.html" class="waves-effect waves-teal btn-flat valign-wrapper">
-            <h6 class="blue-text valign-wrapper" style="text-align:center;padding-bottom: 30px;"> Ocean Fishing</h6>
-          </a>
-        </div>
-        <div class="col s3 left">
-          <a href="fresh.html" class="waves-effect waves-teal btn-flat">
-            <h6 class="blue-text" style="text-align:center"> Fresh Water Fishing</h6>
-          </a>
-        </div>
-        <div class="col s3 left">
-          <a href="calendar.html" class="waves-effect waves-teal btn-flat">
-            <h6 class="blue-text" style="text-align:center"> Fish Calendar</h6>
-          </a>
-        </div>
-        <div class="col s3 left">
-          <a href="species.html" class="waves-effect waves-teal btn-flat">
-            <h6 class="blue-text" style="text-align:center"> Fish Species </h6>
-          </a>
-        </div>
+      <div class="col s6 m3 l3 left">
+        <a href="ocean.html" class="waves-effect waves-teal btn-flat">
+          <h6 class="blue-text" style="text-align:center"> Ocean Fishing</h6>
+        </a>
+      </div>
+      <div class="col s6 m3 l3 left">
+        <a href="fresh.html" class="waves-effect waves-teal btn-flat">
+          <h6 class="blue-text" style="text-align:center"> Fresh Water Fishing</h6>
+        </a>
+      </div>
+      <div class="col s6 m3 l3 left">
+        <a href="calendar.html" class="waves-effect waves-teal btn-flat">
+          <h6 class="blue-text" style="text-align:center"> Fish Calendar</h6>
+        </a>
+      </div>
+      <div class="col s6 m3 l3 left">
+        <a href="species.html" class="waves-effect waves-teal btn-flat">
+          <h6 class="blue-text" style="text-align:center"> Fish Species </h6>
+        </a>
+      </div>
+  
+    </div>
 <div class="container center">
     <div class="row left">
         <div class="col ">
         <h4 class="blue-text">Ocean Fishing</h4>
-        <h6 style="text-align: left;">The State regulates fishing up to three mile offshore. Beyond that, Federal regulations apply.</h6>
+        <h6 style="text-align: left;">    The state regulates fishing up to three miles offshore. Beyond that, federal regulations apply.</h6>
 
-        <h6>For salt water fishing you need a State license if you are over 16 years old.</h6>
+<h6>All anglers 16 years or older fishing in the salt water, whether from the shore or a boat, require a state license. However, a license is not required when on a paid charter 
+  with a licensed captain, as the captain’s license also covers his or her customers.</h6>
 
-        <h6>To fish from the beach or the banks of estuaries (tidal creeks) or a dock or pier you now need a
-            license. You cannot fish
-            in designated swimming areas and you are not supposed to fish for sharks. The sharks break
-            this rule all the time,
-            so you might hook a Sting Ray or Atlantic Sharp Nosed or Black Tipped shark. You are expected to
-            release them. If you get a Sting
-            Ray or a good size shark, just cut the line and let it go rather than take a chance of getting hurt.
-        </h6>
+<h6>Types of fishing include:</h6>
+<ul><li>
+- Inshore, referring to creeks, coves and estuaries.</li>
+<li>
+- Nearshore, referring to open ocean fishing within a few miles of a shore, still within sight of land.</li>
+<li>
+- Offshore, referring to ocean fishing farther from the coast.<li>
+</ul>
+<h6>Charter captains will offer one or more of these types of fishing, depending on the size and 
+  capabilities of their vessel. Most private charters are limited by law to six or fewer passengers, 
+  (excluding the captain and mate). There are a few exceptions; the Hobo, for example, can take up to 
+  16 passengers. Some smaller vessels may limit the number of passengers due to space considerations.</h6>
 
-       <h6>Inshore and offshore   <a href="https://fareharbor.com/embeds/book/bluewaterhhi/?full-items=yes">Blue Water charter </a>fishing boats are readily available. </h6> 
+  <h6>Private charters are single-party charters where the fee is for the entire boat and the services 
+of the captain, who will give the anglers all the supplies and assistance they need. This is different 
+than larger boats known as “party” or “head” boats, where customers are charged individually and go out with larger numbers of people.</h6>
 
-    <h6>  You can go fishing on a boat with a dozen or more people
-         (<a href="https://fareharbor.com/embeds/book/bluewaterhhi/items/79709/calendar/2020/01/?full-items=yes">The Hobo</a> can hold 16 people). 
-    You can also charter an offshore (or inshore) boat that carries up to six passengers.</h6> 
-        
-<h6>  The charters can accommodate several differ types of fishing.</h6> 
-        
-<h6>   They can drift fish (fishing with the boat not moving), 
-        fish by trolling the bait, (dragging it behind a moving boat). This is 
-        usually called deep sea fishing. They can even focus on Sharks. Shark fishing is 
-        usually late in the day and into evening.</h6> 
-        
-        
-        
-    <h6>    The trips offered are typically either half-day or full-day excursions.</h6> 
-        
-<h6>  The Charters can stay inshore, go a little off shore or go to the Gulf Stream. </h6> 
-        
+<h6>Captains will either still fish, using live or dead bait while the boat is not moving, or troll, by dragging 
+live or artificial bait behind a moving boat. Inshore fishing is typically done near shorelines or landforms 
+such as creek mouths or deep holes, while nearshore or offshore fishing is often done around reefs which are known 
+to hold fish. Captains will fillet edible, legal-sized fish for customers who wish to bring something home.</h6>
 
-    <h6> There are a number of artificial reefs and natural banks offshore that offer fine fishing. The Blue Water 
-        charter captains know where to go at various times of year and can predict the types of fish that may be caught.</h6> 
-        
-    <h6>    Our recommendation for charter fishing is to go to the docks or call and talk to the 
-    charter boat captains to see what is a good fit for you.  <a href="https://fareharbor.com/embeds/book/bluewaterhhi/?full-items=yes">Blue Water Charters </a> (843) 671-3060.</h6> 
+<h6>Shark fishing is very popular around Hilton Head. These fish are targeted mainly for sport value rather than 
+for eating, so this type of fishing is usually catch-and-release.</h6>
+
+<h6>Fishing conditions, namely the wind and weather and size of the waves, also dictate the type of fishing captains may 
+opt for on any given day. Blue Water captains know where to go at different times of year and what species of fish may be caught.</h6>
+
+<h6>To find out more about what type of fishing trip might be right for you, visit Blue Water Tackle Shop or call 843-671-3060. </h6>
+
+       
+
+    <h6>   
+   <a href="https://fareharbor.com/embeds/book/bluewaterhhi/?full-items=yes">Blue Water Charters </a> (843) 671-3060.</h6> 
         <br>
         </div>
     </div>
